@@ -1,0 +1,82 @@
+#projects {
+  background-color: black;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10%;
+}
+
+.projects-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.project-group-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-group-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.project-img {
+  height: 325px;
+  width: 325px;
+}
+
+.project-img img {
+  transition: all 0.3s ease-in-out;
+}
+.project-img img:hover {
+  transform: scale(0.97);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-item {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.project-title a:hover {
+  color: rgb(201,22,22);
+  transition: all 0.3s ease-in-out;
+}
+
+.github-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1vh;
+}
+
+.github-link a:hover {
+  color: rgb(201,22,22);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .project-title { font-size: 2rem; }
+  .projects-title { margin: 0; padding-bottom: 20px; padding-top: 28px; }
+}
+
+@media screen and (max-width: 850px) and (max-height: 500px) {
+  .projects { margin: 0 2%; }
+  .projects-title { margin: 0; padding-bottom: 20px; padding-top: 28px; }
+  .project-img img { height: 245px; width: 145px; }
+  .project-img { height: 245px; width: 145px; }
+}

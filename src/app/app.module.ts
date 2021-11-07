@@ -15,13 +15,23 @@ import {faGithub, faCodepen, faInstagram, faYoutube, faLinkedin, faMedium, faHtm
   from '@fortawesome/free-brands-svg-icons';
 import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 import { ResumeComponent } from './components/resume/resume.component';
+import { HomeComponent } from './components/sections/home/home.component';
+import { AboutComponent } from './components/sections/about/about.component';
+import { ProjectsComponent } from './components/sections/projects/projects.component';
+import { FooterComponent } from './components/sections/footer/footer.component';
+import { ContactComponent } from './components/sections/contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
-    ResumeComponent
+    ResumeComponent,
+    HomeComponent,
+    AboutComponent,
+    ProjectsComponent,
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

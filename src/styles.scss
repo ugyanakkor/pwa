@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin:0;
+  padding:0;
+}
+
+section {
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a { text-decoration: none; color: white}
+
+@font-face {font-family: alex-brush; src: url(/assets/fonts/alex-brush.ttf)}

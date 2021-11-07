@@ -1,0 +1,69 @@
+#home {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.main-title {
+  position: absolute;
+  top: 30%;
+  color: white;
+  font-family: alex-brush, sans-serif;
+  font-size: 5rem;
+}
+
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,.5);
+}
+
+.social-icons {
+  position: absolute;
+  top: 60%;
+  margin-left: 5px;
+}
+
+.social-icons fa-icon {
+  font-size: 3rem;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.social-icons fa-icon:hover {
+  color: #202020;
+  background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .main-title { font-size: 3.5rem; }
+  .social-icons fa-icon { font-size: 2rem; }
+  video { object-fit: cover; }
+  #video-background { height: 100vh; width: 100vw; }
+  #video-background-2 { height: 100vh; width: 100vw; }
+}
+
+@media screen and (max-width: 850px) and (max-height: 500px) {
+  .main-title { top: 15%; }
+}

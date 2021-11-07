@@ -7,9 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pwa';
-
-  scrollToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
 }

@@ -1,0 +1,30 @@
+#footer {
+  background-color: black;
+  min-height: unset;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons fa-icon {
+  font-size: 2rem;
+  margin-left: 1vw;
+}
+
+.footer-icons fa-icon:hover {
+  color: rgb(201,22,22);
+}
+
+.footer-text {
+  color: rgba(255,255,255,.8);
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-icons fa-icon { margin: 0 8px; }
+}
+
+@media screen and (max-width: 850px) and (max-height: 500px) {
+  .footer-icons fa-icon { margin: 0 10px; }
+}
